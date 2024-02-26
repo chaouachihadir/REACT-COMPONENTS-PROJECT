@@ -1,10 +1,10 @@
 // ProfilePhoto.js
 import React from 'react';
-
+import profile from "../../profile.jpg"
 function ProfilePhoto() {
   return (
     <div>
-      <img src= "téléchargement.jpg "alt="img" />
+      <img src= {profile}alt="img" />
     </div>
   );
 }
